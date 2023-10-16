@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,13 +19,13 @@
   </head>
   <body>
 
-    <div class="navbar bg-base-100">
+    <div class="navbar sticky top-0 z-50 bg-info-content text-primary-content">
       <div class="navbar-start">
         <div class="dropdown">
-          <label tabindex="0" class="btn btn-base-100 btn-circle">
+          <label tabindex="0" class="btn btn-ghost btn-circle">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
           </label>
-          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52">
             <li><a href="index.html">Homepage</a></li>
             <li><a href="profil.html">Portfolio</a></li>
             <li><a>About</a></li>
@@ -33,25 +33,38 @@
         </div>
       </div>
       <div class="navbar-center">
-        <a class="btn btn-ghost normal-case text-base-content">MyPortofolio</a>
+        <a class="btn btn-ghost normal-case text-base-100">rsynpr</a>
       </div>
-      
+      <div class="navbar-end">
+        <button class="btn btn-ghost btn-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+        </button>
+        <button class="btn btn-ghost btn-circle">
+          <div class="indicator">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+            <span class="badge badge-xs badge-primary indicator-item"></span>
+          </div>
         </button>
       </div>
     </div>
 
-   <div class="hero min-h-screen bg-ghost">
+
+    
+   <div class="hero min-h-screen bg-neutral-focus">
   <div class="hero-content flex-col lg:flex-row">
     <img src="rayes.jpeg" class="max-w-sm rounded-lg shadow-2xl width="200" height="200"/>
     <div>
-      <h2 class="text-5xl font-bold">Rasya Nizar Pradipa</h2>
-      <p class="py-6">Hello, Saya seorang siswa SMKN 1 Purbalingga. Hobi saya bermain biliard</p>
-      <button class="btn btn-accent">Selengkapnya</button>
+      <h2 class="text-base-300 text-5xl font-bold">Rasya Nizar Pradipa</h2>
+      <div>
+      <p class="py-6 text-base-300">Hello, Saya seorang siswa SMKN 1 Purbalingga.</p>
+      <p class="py-1 text-base-300">Hobi saya bermain biliard.</p>
+    </div>
+      <a href="#1"><button class="btn btn-outline btn-warning btn-wide">Selengkapnya</button></a>
     </div>
   </div>
 </div>
 
-<footer class="footer footer-center p-5 bg-info-content text-base-100 rounded">
+<footer class="footer footer-center p-5 bg-info-content text-base-200" id="1">
   <nav class="grid grid-flow-col gap-4">
     <a class="link link-hover">About us</a> 
     <a class="link link-hover">Contact</a> 
@@ -66,7 +79,7 @@
       data-te-ripple-init
       data-te-ripple-color="light"
       class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
-      style="background-color: #c13584">
+      style="background-color: #6e0c94">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-4 w-4"
@@ -83,7 +96,7 @@
     data-te-ripple-init
     data-te-ripple-color="light"
     class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
-    style="background-color: #128c7e">
+    style="background-color: #00914d">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="h-4 w-4"
